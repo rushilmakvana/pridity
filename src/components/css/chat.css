@@ -1,0 +1,153 @@
+html::-webkit-scrollbar {
+    display: none;
+}
+*{
+    margin: 0;
+    padding: 0;
+   
+}
+body{
+    background-image: linear-gradient(rgba(255, 255, 255, 0.866), rgba(255, 255, 255, 0.866)),url('./background.png') ;
+    overflow-x: hidden;
+        
+
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    width: 100%;
+    background-color: orange;
+
+}
+
+.input{
+   
+    margin: 7px;
+    padding: 10px;
+    border-radius: 5px;
+    
+    
+}
+
+.head{
+    margin-bottom: 9px;
+}
+
+.btn{
+    padding: 10px;
+    margin: 11px;
+    border-radius: 10px;
+    background-color: rgb(119, 255, 128);
+}
+
+.main{
+  height: 100vh;
+  width: calc(100vw-25px);
+  /* background-color:aqua; */
+  
+  /* opacity: 0.2; */
+  background-repeat:repeat;
+}
+
+.chat-header{
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    font-size: 20px;
+    z-index: 1;
+    background-color: rgb(109, 250, 241);
+    width: 100vw;
+    margin-top: 0px;
+    height: 5%;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+   
+}
+
+.chat-footer{
+    position: fixed;
+    bottom: 20px;
+    width: 100vw;
+    text-align: center;
+    /* height: 50px; */
+    /* align-items: center; */
+    /* margin: auto; */
+    /* justify-content: center; */
+    
+}
+
+.message-container{
+    height: 100%;
+    width: 100%;
+    /* overflow-y: scroll; */
+    overflow-x: hidden;
+    scrollbar-width: none;
+
+}
+.send{
+   margin:5px;
+   padding: 9px;
+   border-radius: 5px;
+}
+::-webkit-scrollbar{
+    width:0px;
+    /* display: none; */
+
+}
+.chat-body{
+    margin:25px ;
+    /* padding-bottom: 50px; */
+    height: 80%;
+    overflow-y: scroll;
+    scrollbar-width: none;
+    
+    /* border: 1px solid red; */
+}
+
+.message-content{
+    font-size: 23px;
+    /* border: 1px solid rebeccapurple; */
+    width: fit-content;
+    padding: 5px 14px; 
+    border-radius: 3px;
+    max-width: 30%;
+     overflow-x: hidden;
+     /* overflow-y:visible; */
+     overflow-wrap: break-word;
+
+}     
+
+
+.extra{
+    width: fit-content;
+   font-size: 12px;
+   margin-left: 1.5px;
+   margin-bottom: 10px;
+ 
+}
+#you .message-content {
+    /* background-color: blue; */
+    background-color: rgb(119, 255, 128);
+    width: fit-content;
+    text-align: left;
+    margin-left: auto;
+}
+#you .extra{
+
+    text-align: left;
+    margin-left: auto;
+
+}
+
+#other .message-content{
+    background-color: rgb(223, 255, 244);
+    /* border: 1px solid black; */
+    width: fit-content;
+    max-width: 30%;
+
+}
