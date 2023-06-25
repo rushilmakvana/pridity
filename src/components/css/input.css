@@ -1,19 +1,20 @@
-.input-box input{
-    background:transparent;
-    border: none;
-    margin-left: 8px;
-    padding: 6px;
-    outline: none;
-
-
+.input-box input {
+  background: transparent;
+  border: none;
+  margin-left: 8px;
+  padding: 6px;
+  outline: none;
+  font-size: 19px;
 }
-.input-box{
-    border-bottom: 1px solid black;
-    width:230px;
-    padding: 4px 0;
-    margin: 7px;
-    margin-left: 0px;
+.input-box {
+  border-bottom: 1px solid black;
+  width: 230px;
+  /* height: 37px; */
+  padding: 4px 0;
+  margin: 7px;
+  margin-left: 0px;
+  padding: 15px 0px;
 }
-.input-box i{
-    color: grey;
+.input-box i {
+  color: grey;
 }
